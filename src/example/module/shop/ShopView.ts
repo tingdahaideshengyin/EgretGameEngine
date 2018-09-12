@@ -16,6 +16,8 @@ class ShopView extends BasePanelView {
         super.initData();
 
         var dp1:eui.ArrayCollection = new eui.ArrayCollection();
+
+        
         dp1.addItem({title: "普通化肥", price: "3", time: "-5分钟", icon: "icon_fertilizer02"});
         dp1.addItem({title: "高速化肥", price: "5", time: "-10分钟", icon: "icon_fertilizer03"});
         dp1.addItem({title: "飞速化肥", price: "15", time: "-30分钟", icon: "icon_fertilizer04"});
